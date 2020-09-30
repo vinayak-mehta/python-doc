@@ -48,16 +48,16 @@ def cli(*args, **kwargs):
     web = kwargs["web"]
 
     if web:
-        doc_path = "https://docs.python.org/"
+        data_path = "https://docs.python.org/"
         joiner = urljoin
     else:
-        cwd = os.path.dirname(os.path.dirname(__file__))
-        doc_path = os.path.join(os.path.dirname(cwd), "data")
+        cwd = os.path.dirname(__file__)
+        data_path = os.path.join(cwd, "data")
         joiner = os.path.join
 
     if module_name is not None:
         webbrowser.open(
-            joiner(doc_path, f"{python_version}/library/{module_name}.html"), new=2
+            joiner(data_path, f"{python_version}/library/{module_name}.html"), new=2
         )
     else:
-        webbrowser.open(joiner(doc_path, f"{python_version}/index.html"), new=2)
+        webbrowser.open(joiner(data_path, f"{python_version}/index.html"), new=2)
