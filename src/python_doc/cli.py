@@ -52,7 +52,7 @@ def cli(*args, **kwargs):
         joiner = urljoin
     else:
         cwd = os.path.dirname(os.path.dirname(__file__))
-        doc_path = os.path.join(os.path.dirname(cwd), "data/doc")
+        doc_path = os.path.join(os.path.dirname(cwd), "data")
         joiner = os.path.join
 
     if module_name is not None:
