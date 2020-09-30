@@ -13,7 +13,7 @@ with open("README.md", "r") as f:
     readme = f.read()
 
 
-requires = ["Click>=7.0", "blurb", "sphinx==2.4.4", "python-docs-theme"]
+requires = ["cliche", "blurb", "sphinx==2.4.4", "python-docs-theme"]
 dev_requires = ["Sphinx>=2.2.1"]
 dev_requires = dev_requires + requires
 
@@ -32,7 +32,7 @@ def setup_package():
         package_dir={"": "src"},
         packages=find_packages(where="src", exclude=("tests",)),
         include_package_data=True,
-        entry_points={"console_scripts": ["python-doc = python_doc.cli:cli"]},
+        entry_points={"console_scripts": ["python-doc = python_doc.cli:main"]},
         install_requires=requires,
         extras_require={"dev": dev_requires},
         classifiers=[
