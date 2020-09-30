@@ -2,7 +2,7 @@
 
 VERSION = (2020, 9, 30)
 PRERELEASE = "alpha"  # alpha, beta or rc
-REVISION = 1
+REVISION = 2
 
 
 def generate_version(version, prerelease=None, revision=None):
