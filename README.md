@@ -8,7 +8,7 @@ Open Python docs in the browser.
 
 - Search engines still take you to Python 2.7 docs, and not the docs for the Python version you're using.
 - `python-doc` installs all docs on your machine, so you don't need an internet connection to view them.
-- You can also ask `python-doc` to take you to the [docs.python.org](https://docs.python.org/) website.
+- You can optionally ask `python-doc` to take you to the [docs.python.org](https://docs.python.org/) website.
 
 Inspired by `rustup doc` which opens docs associated with the installed Rust toolchain in your browser.
 
