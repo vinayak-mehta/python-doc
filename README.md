@@ -24,19 +24,19 @@ You can open the main page associated with _your_ Python version using:
 $ python-doc
 ```
 
-You can go to a specific module's page using the `-m` option:
+You can also go to a specific module's page using the `-m` option:
 
 ```
 $ python-doc -m os
 ```
 
-If you want to see the docs for a different Python version than your own, you can do that using the `-py` option:
+If you want to see the docs for a different Python version than your own, you can use the `-py` option:
 
 ```
 $ python-doc -m os -py 3.6
 ```
 
-To open the docs on the [docs.python.org](https://docs.python.org/) website, you can use the `-w` option:
+To open docs on the [docs.python.org](https://docs.python.org/) website, you can use the `-w` option:
 
 ```
 $ python-doc -m os -py 3.6 -w
