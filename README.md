@@ -1,5 +1,7 @@
 # python-doc
 
+[![image](https://img.shields.io/pypi/v/python-doc.svg)](https://pypi.org/project/python-doc/) [![image](https://img.shields.io/pypi/pyversions/python-doc.svg)](https://pypi.org/project/python-doc/) [![image](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
+
 Open Python docs in the browser.
 
 ## Background
