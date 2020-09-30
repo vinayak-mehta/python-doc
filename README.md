@@ -4,8 +4,9 @@ Open Python docs in the browser.
 
 ## Why?
 
-- Google still shows Python 2.7 docs in search results
-- Got inspired from `rustup doc`, which opens docs associated with the installed Rust toolchain
+- Google still shows Python 2.7 doc links in search results.
+- Inspiration from `rustup doc` which opens docs associated with the installed Rust toolchain.
+- You don't need an internet connection to view docs as `python-doc` installs them on your machine.
 
 ## Installation
 
@@ -16,8 +17,6 @@ $ pip install python-doc
 ```
 
 ## Usage
-
-You don't need an internet connection to view docs as `python-doc` installs them on your machine.
 
 You can open the main page associated with _your_ Python version using:
 
